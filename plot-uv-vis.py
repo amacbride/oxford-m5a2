@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the Excel file
-file_path = './UV VIS SPECTRUM.xlsx'
+file_path = 'data/uv-vis-spectrum.xlsx'
 data = pd.read_excel(file_path, sheet_name=None)
 
 # Load the data from the relevant sheet
